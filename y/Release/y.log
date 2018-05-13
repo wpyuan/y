@@ -1,0 +1,44 @@
+﻿生成启动时间为 2017/7/6 19:05:20。
+     1>项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\y\y\y.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\y.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\y.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MySQL\MySQL Server 5.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\y.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\用户目录\我的文档\visual studio 2010\projects\y\y\SkinPPWTL.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\用户目录\我的文档\visual studio 2010\projects\y\y\stdafx.h(42): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MySQL\MySQL Server 5.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\y.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt explorer1.cpp LOGIN.cpp y.cpp yDlg.cpp
+         explorer1.cpp
+         LOGIN.cpp
+         y.cpp
+     1>y.cpp(57): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxwin.h(5347) : 参见“CWinApp::Enable3dControlsStatic”的声明
+         yDlg.cpp
+     1>yDlg.cpp(929): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>yDlg.cpp(953): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\y.res" y.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\用户目录\我的文档\Visual Studio 2010\Projects\y\Release\y.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\MySQL\MySQL Server 5.5\lib" libmysql.lib SkinPPWTL.lib /MANIFEST /ManifestFile:"Release\y.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\y\Release\y.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\y\Release\y.lib" /MACHINE:X86 Release\y.res
+         Release\explorer1.obj
+         Release\LOGIN.obj
+         Release\stdafx.obj
+         Release\y.obj
+         Release\yDlg.obj
+         y.vcxproj -> D:\用户目录\我的文档\Visual Studio 2010\Projects\y\Release\y.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\用户目录\我的文档\Visual Studio 2010\Projects\y\Release\y.exe.manifest" /manifest Release\y.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\y.unsuccessfulbuild”。
+         正在对“Release\y.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\y\y\y.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.07

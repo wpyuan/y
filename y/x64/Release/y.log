@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/4/24 18:10:29。
+     1>项目“d:\用户目录\我的文档\visual studio 2010\Projects\y\y\y.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\y.lastbuildstate”。
+       PrepareForBuild:
+         正在创建目录“d:\用户目录\我的文档\visual studio 2010\Projects\y\x64\Release\”。
+       InitializeBuildStatus:
+         正在创建“x64\Release\y.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\y.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\用户目录\我的文档\visual studio 2010\projects\y\y\SkinPPWTL.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\用户目录\我的文档\visual studio 2010\projects\y\y\stdafx.h(42): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\y.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt explorer1.cpp LOGIN.cpp y.cpp yDlg.cpp
+         explorer1.cpp
+         LOGIN.cpp
+         y.cpp
+     1>y.cpp(49): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxwin.h(5347) : 参见“CWinApp::Enable3dControlsStatic”的声明
+         yDlg.cpp
+     1>yDlg.cpp(925): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>yDlg.cpp(949): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\y.res" y.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"d:\用户目录\我的文档\visual studio 2010\Projects\y\x64\Release\y.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.7\lib" libmysql.lib SkinPPWTL.lib /MANIFEST /ManifestFile:"x64\Release\y.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\用户目录\我的文档\visual studio 2010\Projects\y\x64\Release\y.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\用户目录\我的文档\visual studio 2010\Projects\y\x64\Release\y.lib" /MACHINE:X64 x64\Release\y.res
+         x64\Release\explorer1.obj
+         x64\Release\LOGIN.obj
+         x64\Release\stdafx.obj
+         x64\Release\y.obj
+         x64\Release\yDlg.obj
+     1>SkinPPWTL.lib(SkinPPWTL.dll) : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“d:\用户目录\我的文档\visual studio 2010\Projects\y\y\y.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.25
